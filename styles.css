@@ -1,1 +1,18 @@
+body {
+    background-color: #1e0050;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+p {
+    line-height: 2.25em;
+}
+
+img {
+
+    width: 300px;
+    float: left;
+    border: solid 3px #392980;
+    border-radius: 10px;
+    margin-right: 20px
+}
