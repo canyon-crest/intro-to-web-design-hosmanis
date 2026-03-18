@@ -144,9 +144,50 @@ ul {
     p {
         text-align: justify;
     }
+
+    img {
+        float: none;
+    }
+
+    #badminton {
+        float: none;    }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 992px) {
+
+    #container {
+        background: #3d3857;
+        width: 90%;
+        border: none;
+    }
+
+    #sidebar {
+        width: 70%;
+        float: none;
+        margin: 20px 0;
+    }
+
+    h1 {
+        width: 70%;
+        background: none;
+        border: none;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    img {
+        float: none;
+    }
+
+    #badminton {
+        float: none;    
+    }
+}
+
+
+@media (max-width: 768px) {
     #container, body {
         background: #3d3857;
         margin: 0 auto;
@@ -158,9 +199,13 @@ ul {
     }
 
     img {
-        width: 80%;
+        width: 50%;
         float: none;
         margin: 0 auto;
         padding: 10px;
+    }
+
+    #badminton {
+        float: none;
     }
 }
